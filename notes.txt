@@ -1,0 +1,35 @@
+  "type": "module", is added to the package.json
+will be able to use normal or newer import statements like this.
+
+
+npm install --save-dev nodemon
+
+  console.log("[TEST]");// to test te get initially
+
+
+Handling users using API, we are going to make 5 different routes:
+1. GET - /users finds all users
+2. POST - /users create a user
+3. GET - /users/:id finds user details
+4. DELETE - /users/:id delete a user
+5. PATCH - /users/:id  updates a user
+
+//initialise router
+const router = Express.Router();
+
+Browsers are use only Get request, that is why Postman is used to check other different request
+
+
+//post users to the dattabase
+
+//get specific user
+npm install uuid
+
+const userWithId = { ...user, id: userId };
+-spread all the properties of the user using the spread operator
+
+req.params
+
+//change the user detail / updates
+PATCH- for updates    PUt- to overwrite
+
